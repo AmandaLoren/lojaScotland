@@ -9,7 +9,7 @@
     }else{
         $listaProdutos = $crud->getProdutos();
     }
-    ## !!ADICIONE AQUI O CABECALHO DA PAGINA
+
     require_once 'cabecalho.php';
 
 ?>
@@ -19,8 +19,9 @@
     <div class="col-md-12">
         <div class="input-group">
 
-                <input type="text" name="nome_buscado" class="form-control" placeholder="digite o nome do produto" aria-describedby="basic-addon2">
-                <button class="input-group-addon" id="basic-addon2">buscar</button>
+
+                <input type="text" name="nome_buscado" class="form-control" placeholder="Digite o nome do produto" aria-describedby="basic-addon2">
+                <button type="submit" class="input-group-addon" id="basic-addon2">Buscar</button>
 
         </div>
     </div>
@@ -46,12 +47,11 @@
         <td><?=$produto->preco?></td>
         <td><?=$produto->quant_estoque?></td>
         <td><?=$produto->categoria?></td>
-        <td><a href="editar-produto.php?codigo=<?=$produto->codigo?>">editar</a> | <a href="../../controllers/controladorProduto.php?acao=excluir&codigo=<?=$produto->codigo?>">remover</a></td>
+        <td><a href="editar-produto.php?codigo=<?=$produto->codigo?>">Editar</a> | <a href="../../controllers/controladorProduto.php?acao=excluir&codigo=<?=$produto->codigo?>">Remover</a></td>
     </tr>
    <?php endforeach; ?>
 
     </tbody>
 </table>
 
-<!-- ## ADICIONE AQUI O RODAPE DA PAGINA -->
 <?php require_once 'rodape.php';?>

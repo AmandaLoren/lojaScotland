@@ -1,5 +1,6 @@
 body {
-  padding-top: 55px;
+  padding-top: 45px;
+
 }
 
 @media (min-width: 992px) {
@@ -13,7 +14,7 @@ body {
 }
 
 .bg-dark {
-  background-color: deepskyblue !important;
+  background-color: #073B4C !important;
 }
 
 .btn-ifc {
@@ -31,5 +32,37 @@ body {
   position: fixed;
   width: 100%;
   bottom: 0;
+
+
 }
 
+.admin-menu {
+  background: #333;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  padding: 0 ;
+  list-style: none;
+
+}
+
+ul li a {
+  display: block;
+  padding: 10px 10px;
+
+  color: #b8c7ce;
+  font-size: 12px;
+}
+ul li a:hover {
+  text-decoration: none;
+  background: #1d1c1c;
+  color: #b8c7ce;
+}
+#produto{
+  margin-top: 100px;
+
+}

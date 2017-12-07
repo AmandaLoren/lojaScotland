@@ -45,7 +45,7 @@ if ( $_GET['acao'] == 'comprar'){
         $produto = $crud->buscarProduto($_GET['codigo']);
         $produto['quant_estoque'] -= $_POST['quant_nova'];
         $crud->editarProduto($produto['codigo'],$produto['nome'],$produto['preco'],$produto['quant_estoque'],$produto['categoria']);
-    header("Location: ../views/admin/produtos.php");
+    header("Location: ../../index.php");
 
 }
 

@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="assets/css/ifc-style.css">
 
-    <title>Lojão do IFC</title>
+    <title>|Black Wolf|</title>
 
 
 </head>
@@ -31,7 +31,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/imagens/logo.png" alt="" width="120px"></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/imagens/logo.png" alt="" width="90px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,14 +48,15 @@
     </div>
 </nav>
 
-<!-- Jumbotron Header -->
-<header class="jumbotron my-4 home-banner">
+
+<header class="jumbotron my-4 home-banner" id="head">
     <div class="container">
-        <h1 class="display-3">Lojão do IFC!</h1>
+        <h1 class="display-3">BW Artigos Esportivos</h1>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
         <a href="#" class="btn btn-primary btn-lg">só hoje!</a>
     </div>
 </header>
+
 
 <!-- Page Content -->
 <div class="container">
@@ -67,7 +68,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://http2.mlstatic.com/camisa-futebol-americano-nfl-wilson-seattle-seahawks-D_NQ_NP_735311-MLB25883464833_082017-F.jpg" alt="">
+                    <img class="card-img-top" src="http://placehold.it/500x325" alt="">
                     <div class="card-body">
                         <h4 class="card-title"><?= $prod->nome ?></h4>
                         <p class="card-text"><?= $prod->preco ?></p>

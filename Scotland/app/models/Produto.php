@@ -28,9 +28,9 @@ class Produto {
 
     public function estaDisponivel(){
         if ($this->quant_estoque>0){
-            return 'Disponivel';
+            return 'Disponível';
         }else{
-            return 'Indisponivel';
+            return 'Indisponível';
         }
     }
 }
